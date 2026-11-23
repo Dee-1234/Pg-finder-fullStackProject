@@ -45,6 +45,7 @@ pg-finder/
 └── property_list.php
 
 # Database Schema
+
 The database (pg_finder) is normalized to Third Normal Form (3NF) across five tables:
 - users — Student profile and hashed credentials
 - properties — PG details, city, monthly rent, gender type, and rating
