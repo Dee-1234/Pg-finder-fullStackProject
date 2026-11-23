@@ -50,3 +50,6 @@ pg-finder/
   - amenities — Master list of PG facilities
   - property_amenities — Many-to-many mapping between properties and amenities
   - interested_users — Many-to-many shortlist mapping between users and properties
+
+
+live URL - http://localhost/pg-finder/index.php
