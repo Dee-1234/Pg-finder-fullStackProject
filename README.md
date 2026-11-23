@@ -2,7 +2,6 @@
 PG Finder is a responsive full-stack web application designed to help students search, filter, inspect, and shortlist Paying Guest (PG) and student hostel accommodations across major student hubs. The platform simulates a real-world housing discovery experience with mobile-first Bootstrap 5 layouts, normalized relational data storage in MySQL, session-based authentication, asynchronous AJAX/JSON endpoints, and a component-driven React listing interface.
 
 # PG Finder — Student Accommodation Website
-
 A responsive full-stack student accommodation portal for exploring, filtering, viewing, and shortlisting Paying Guest (PG) properties across major student hubs.
 
 ## Tech Stack
@@ -45,10 +44,9 @@ pg-finder/
 └── property_list.php
 
 # Database Schema
-
-The database (pg_finder) is normalized to Third Normal Form (3NF) across five tables:
-- users — Student profile and hashed credentials
-- properties — PG details, city, monthly rent, gender type, and rating
-- amenities — Master list of PG facilities
-- property_amenities — Many-to-many mapping between properties and amenities
-- interested_users — Many-to-many shortlist mapping between users and properties
+  The database (pg_finder) is normalized to Third Normal Form (3NF) across five tables:
+  - users — Student profile and hashed credentials
+  - properties — PG details, city, monthly rent, gender type, and rating
+  - amenities — Master list of PG facilities
+  - property_amenities — Many-to-many mapping between properties and amenities
+  - interested_users — Many-to-many shortlist mapping between users and properties
